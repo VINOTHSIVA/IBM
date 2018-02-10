@@ -2,9 +2,9 @@
 void main()
 {
     float amount;
-    char total;
+    int total;
     printf("enter the values of amount");
     scanf("%f",&amount);
     total=amount*100;
-    printf("%c",total);
+    printf("%d",total);
 }
