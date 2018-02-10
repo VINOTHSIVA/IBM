@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+   int a[2][2],i,j,(*ptr)[2];
+    ptr=a;
+   printf("enter the element");
+   for(i=0;i<2;i++)
+   {
+   for(j=0;j<2;j++)
+   {
+   scanf("%d",&a[i][j]);
+   ptr=a;
+   }}
+   printf("enter the array ofelement");
+   for(i=0;i<2;i++)
+   {
+   for(j=0;j<2;j++)
+   {
+   printf("%d",*(*(ptr+i)+j));
+   }
+   }
+}
